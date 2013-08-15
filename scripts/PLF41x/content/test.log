@@ -1,0 +1,6 @@
+2013-08-10 14:42:22,504 | [34mINFO [0;39m | Server startup in 85471 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_SUCCESS_REQ=78
+NUMBER_OF_FAIL_REQ=18
+NUMBER_OF_SUCCESS_CURL=20 (20 is PERFECT)
+NUMBER_OF_EXCEPTION=40
+TIME=6383 (second)

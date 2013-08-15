@@ -1,0 +1,7 @@
+#!/usr/bin/expect
+set timeout 18000
+spawn telnet localhost 5000
+expect %
+send "user add -b 10 -u abc.user -p exo -o 0 -m member:/platform/users 1000\ruser add -b 10 -u bcd.user -p exo -o 1000 -m member:/platform/users 1000\ruser add -b 10 -u cde.user -p exo -o 2000 -m member:/platform/users 1000\ruser add -b 10 -u def.user -p exo -o 3000 -m member:/platform/users 1000\ruser add -b 10 -u efg.user -p exo -o 4000 -m member:/platform/users 1000\r"
+expect %
+send "bye\r"

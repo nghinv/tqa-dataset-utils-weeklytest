@@ -1,0 +1,23 @@
+#!/bin/bash
+. /mnt/nfs4/DATASETS/PLF/PLF4_WEEKLY/scripts/set_global_vars.sh
+set_global_vars;
+
+while true; do
+	if [ -f ${g_store_dir}/${g_ds_user_name}.zip ]; then break;
+		else echo "Still waiting for user ds..."
+	fi
+	sleep 300;
+done
+echo "User ds found. Wait 5 minutes more for ensuring it is really ready."
+sleep 300;
+cp ${g_store_dir}/${g_ds_user_name}.zip ${g_shared_dir}
+
+pushd /mnt/nfs4/DATASETS/PLF/PLF4_WEEKLY/scripts
+
+start=$(date +%s)
+pushd space; ./inj_space.sh ; popd
+pushd membership; ./inj_membership.sh ; popd
+pushd connection; ./inj_connection.sh ; popd
+end=$(date +%s); time=$(expr $end - $start ); echo "TOTAL TIME $time"
+
+popd

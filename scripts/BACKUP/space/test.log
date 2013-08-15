@@ -1,0 +1,21 @@
+START inj_space.sh
+2013-08-10 05:58:55,614 | [34mINFO [0;39m | Server startup in 93564 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_SPACE=200 (200 is PERFECT)
+NUMBER_OF_EXCEPTION=0
+TIME=1381 (second)
+2013-08-10 06:24:42,223 | [34mINFO [0;39m | Server startup in 78883 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_SPACE=200 (200 is PERFECT)
+NUMBER_OF_EXCEPTION=0
+TIME=2103 (second)
+2013-08-10 07:02:34,197 | [34mINFO [0;39m | Server startup in 83354 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_SPACE=200 (200 is PERFECT)
+NUMBER_OF_EXCEPTION=0
+TIME=3053 (second)
+2013-08-10 07:56:06,739 | [34mINFO [0;39m | Server startup in 74960 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_SPACE=200 (200 is PERFECT)
+NUMBER_OF_EXCEPTION=0
+TIME=4197 (second)
+2013-08-10 09:08:44,583 | [34mINFO [0;39m | Server startup in 75852 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_SPACE=200 (200 is PERFECT)
+NUMBER_OF_EXCEPTION=0
+TIME=5441 (second)

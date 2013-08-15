@@ -1,0 +1,5 @@
+2013-08-10 05:14:35,113 | [34mINFO [0;39m | Server startup in 86478 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+2013-08-10 05:41:39,082 | [34mINFO [0;39m | Injecting data has been done successfully! [32m[o.e.wiki.bench.WikiDataInjector[0;39m[36m<http-nio-0.0.0.0-8080-exec-1>[0;39m[32m][0;39m 
+NUMBER_OF_EXCEPTION=0
+NUMBER_OF_PAGE=10110 (10110 is PERFECT)
+TIME=1589 (second)

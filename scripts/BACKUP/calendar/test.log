@@ -1,0 +1,25 @@
+2013-06-15 06:46:33,523 | [34mINFO [0;39m | Server startup in 90794 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+2013-06-15 06:47:13,367 | [34mINFO [0;39m | User abc.user0 logged in. [32m[o.e.p.g.s.L.LoginHistoryListener[0;39m[36m<http-nio-0.0.0.0-8080-exec-2>[0;39m[32m][0;39m 
+2013-06-15 06:53:20,962 | [34mINFO [0;39m | User abc.user1 logged in. [32m[o.e.p.g.s.L.LoginHistoryListener[0;39m[36m<http-nio-0.0.0.0-8080-exec-6>[0;39m[32m][0;39m 
+2013-06-15 07:01:37,514 | [34mINFO [0;39m | User abc.user2 logged in. [32m[o.e.p.g.s.L.LoginHistoryListener[0;39m[36m<http-nio-0.0.0.0-8080-exec-10>[0;39m[32m][0;39m 
+2013-06-15 07:12:50,250 | [34mINFO [0;39m | User abc.user3 logged in. [32m[o.e.p.g.s.L.LoginHistoryListener[0;39m[36m<http-nio-0.0.0.0-8080-exec-4>[0;39m[32m][0;39m 
+2013-06-15 07:26:58,357 | [34mINFO [0;39m | User abc.user4 logged in. [32m[o.e.p.g.s.L.LoginHistoryListener[0;39m[36m<http-nio-0.0.0.0-8080-exec-8>[0;39m[32m][0;39m 
+2013-06-15 07:44:43,894 | [34mINFO [0;39m | User abc.user5 logged in. [32m[o.e.p.g.s.L.LoginHistoryListener[0;39m[36m<http-nio-0.0.0.0-8080-exec-2>[0;39m[32m][0;39m 
+2013-06-15 07:57:58,208 | [34mINFO [0;39m | User abc.user6 logged in. [32m[o.e.p.g.s.L.LoginHistoryListener[0;39m[36m<http-nio-0.0.0.0-8080-exec-6>[0;39m[32m][0;39m 
+2013-06-15 08:14:55,126 | [34mINFO [0;39m | User abc.user7 logged in. [32m[o.e.p.g.s.L.LoginHistoryListener[0;39m[36m<http-nio-0.0.0.0-8080-exec-10>[0;39m[32m][0;39m 
+2013-06-15 08:33:50,757 | [34mINFO [0;39m | User abc.user8 logged in. [32m[o.e.p.g.s.L.LoginHistoryListener[0;39m[36m<http-nio-0.0.0.0-8080-exec-4>[0;39m[32m][0;39m 
+2013-06-15 08:52:50,893 | [34mINFO [0;39m | User abc.user9 logged in. [32m[o.e.p.g.s.L.LoginHistoryListener[0;39m[36m<http-nio-0.0.0.0-8080-exec-8>[0;39m[32m][0;39m 
+2013-06-15 09:16:53,127 | [34mINFO [0;39m | User abc.user10 logged in. [32m[o.e.p.g.s.L.LoginHistoryListener[0;39m[36m<http-nio-0.0.0.0-8080-exec-2>[0;39m[32m][0;39m 
+2013-06-15 09:45:20,857 | [34mINFO [0;39m | User abc.user11 logged in. [32m[o.e.p.g.s.L.LoginHistoryListener[0;39m[36m<http-nio-0.0.0.0-8080-exec-6>[0;39m[32m][0;39m 
+2013-06-15 10:14:26,396 | [34mINFO [0;39m | User abc.user12 logged in. [32m[o.e.p.g.s.L.LoginHistoryListener[0;39m[36m<http-nio-0.0.0.0-8080-exec-10>[0;39m[32m][0;39m 
+2013-06-15 10:30:14,222 | [34mINFO [0;39m | User abc.user13 logged in. [32m[o.e.p.g.s.L.LoginHistoryListener[0;39m[36m<http-nio-0.0.0.0-8080-exec-4>[0;39m[32m][0;39m 
+2013-06-15 10:48:37,950 | [34mINFO [0;39m | User abc.user14 logged in. [32m[o.e.p.g.s.L.LoginHistoryListener[0;39m[36m<http-nio-0.0.0.0-8080-exec-8>[0;39m[32m][0;39m 
+2013-06-15 11:11:47,935 | [34mINFO [0;39m | User abc.user15 logged in. [32m[o.e.p.g.s.L.LoginHistoryListener[0;39m[36m<http-nio-0.0.0.0-8080-exec-2>[0;39m[32m][0;39m 
+2013-06-15 11:39:31,797 | [34mINFO [0;39m | User abc.user16 logged in. [32m[o.e.p.g.s.L.LoginHistoryListener[0;39m[36m<http-nio-0.0.0.0-8080-exec-6>[0;39m[32m][0;39m 
+2013-06-15 12:09:21,084 | [34mINFO [0;39m | User abc.user17 logged in. [32m[o.e.p.g.s.L.LoginHistoryListener[0;39m[36m<http-nio-0.0.0.0-8080-exec-10>[0;39m[32m][0;39m 
+2013-06-15 12:41:41,583 | [34mINFO [0;39m | User abc.user18 logged in. [32m[o.e.p.g.s.L.LoginHistoryListener[0;39m[36m<http-nio-0.0.0.0-8080-exec-4>[0;39m[32m][0;39m 
+2013-06-15 13:15:17,538 | [34mINFO [0;39m | User abc.user19 logged in. [32m[o.e.p.g.s.L.LoginHistoryListener[0;39m[36m<http-nio-0.0.0.0-8080-exec-8>[0;39m[32m][0;39m 
+NUMBER_OF_EXCEPTION=0
+TIME=25313 (second)
+NUMBER_OF_SUCCESS_REQ=25904 (14740 is PERFECT)
+NUMBER_OF_FAIL_REQ=0 (zero is PERFECT)

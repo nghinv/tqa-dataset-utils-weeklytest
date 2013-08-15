@@ -1,0 +1,26 @@
+START login_n_backup.sh
+2013-08-12 15:54:29,941 | [34mINFO [0;39m | Server startup in 80947 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_LOGIN=1000 (1000 is PERFECT)
+NUMBER_OF_EXCEPTION=0
+NUMBER_OF_SUCCESS_REQUEST=45000 (9000 is PERFECT)
+DURATION=716 (second)
+2013-08-12 16:09:47,958 | [34mINFO [0;39m | Server startup in 123264 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_LOGIN=1000 (1000 is PERFECT)
+NUMBER_OF_EXCEPTION=0
+NUMBER_OF_SUCCESS_REQUEST=45000 (9000 is PERFECT)
+DURATION=710 (second)
+2013-08-12 16:23:55,243 | [34mINFO [0;39m | Server startup in 79098 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_LOGIN=1000 (1000 is PERFECT)
+NUMBER_OF_EXCEPTION=0
+NUMBER_OF_SUCCESS_REQUEST=45000 (9000 is PERFECT)
+DURATION=724 (second)
+2013-08-12 16:38:13,833 | [34mINFO [0;39m | Server startup in 77668 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_LOGIN=1000 (1000 is PERFECT)
+NUMBER_OF_EXCEPTION=0
+NUMBER_OF_SUCCESS_REQUEST=45000 (9000 is PERFECT)
+DURATION=729 (second)
+2013-08-12 16:52:36,945 | [34mINFO [0;39m | Server startup in 77047 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_LOGIN=1000 (1000 is PERFECT)
+NUMBER_OF_EXCEPTION=0
+NUMBER_OF_SUCCESS_REQUEST=37080 (9000 is PERFECT)
+DURATION=735 (second)

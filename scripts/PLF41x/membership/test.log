@@ -1,0 +1,81 @@
+START inj_membership.sh
+2013-08-13 16:28:07,414 | [34mINFO [0;39m | Server startup in 48064 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_SUCCESS_CURL=0
+NUMBER_OF_EXCEPTION=13
+TIME=1 (second)
+2013-08-13 16:29:54,779 | [34mINFO [0;39m | Server startup in 55207 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_SUCCESS_CURL=0
+NUMBER_OF_EXCEPTION=13
+TIME=1 (second)
+2013-08-13 16:31:36,857 | [34mINFO [0;39m | Server startup in 49148 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_SUCCESS_CURL=0
+NUMBER_OF_EXCEPTION=13
+TIME=1 (second)
+2013-08-13 16:35:35,115 | [34mINFO [0;39m | Server startup in 185593 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_SUCCESS_CURL=0
+NUMBER_OF_EXCEPTION=13
+TIME=0 (second)
+2013-08-13 16:37:15,761 | [34mINFO [0;39m | Server startup in 48579 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_SUCCESS_CURL=0
+NUMBER_OF_EXCEPTION=15
+TIME=0 (second)
+2013-08-13 16:38:57,853 | [34mINFO [0;39m | Server startup in 49242 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_SUCCESS_CURL=0
+NUMBER_OF_EXCEPTION=13
+TIME=0 (second)
+2013-08-13 16:40:37,888 | [34mINFO [0;39m | Server startup in 48168 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_SUCCESS_CURL=0
+NUMBER_OF_EXCEPTION=14
+TIME=1 (second)
+2013-08-13 16:42:27,224 | [34mINFO [0;39m | Server startup in 57111 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_SUCCESS_CURL=0
+NUMBER_OF_EXCEPTION=13
+TIME=0 (second)
+2013-08-13 16:44:07,340 | [34mINFO [0;39m | Server startup in 47971 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_SUCCESS_CURL=0
+NUMBER_OF_EXCEPTION=13
+TIME=0 (second)
+2013-08-13 16:45:49,222 | [34mINFO [0;39m | Server startup in 49491 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_SUCCESS_CURL=0
+NUMBER_OF_EXCEPTION=13
+TIME=1 (second)
+2013-08-13 16:47:30,854 | [34mINFO [0;39m | Server startup in 49251 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_SUCCESS_CURL=0
+NUMBER_OF_EXCEPTION=14
+TIME=1 (second)
+2013-08-13 16:49:11,859 | [34mINFO [0;39m | Server startup in 48493 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_SUCCESS_CURL=0
+NUMBER_OF_EXCEPTION=13
+TIME=0 (second)
+2013-08-13 16:52:03,368 | [34mINFO [0;39m | Server startup in 117422 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_SUCCESS_CURL=0
+NUMBER_OF_EXCEPTION=13
+TIME=1 (second)
+2013-08-13 16:53:43,419 | [34mINFO [0;39m | Server startup in 47729 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_SUCCESS_CURL=0
+NUMBER_OF_EXCEPTION=13
+TIME=0 (second)
+2013-08-13 16:55:24,356 | [34mINFO [0;39m | Server startup in 49219 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_SUCCESS_CURL=0
+NUMBER_OF_EXCEPTION=13
+TIME=0 (second)
+2013-08-13 16:57:06,300 | [34mINFO [0;39m | Server startup in 48383 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_SUCCESS_CURL=0
+NUMBER_OF_EXCEPTION=13
+TIME=0 (second)
+2013-08-13 16:58:48,149 | [34mINFO [0;39m | Server startup in 49177 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_SUCCESS_CURL=0
+NUMBER_OF_EXCEPTION=13
+TIME=0 (second)
+2013-08-13 17:00:29,274 | [34mINFO [0;39m | Server startup in 48680 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_SUCCESS_CURL=0
+NUMBER_OF_EXCEPTION=13
+TIME=1 (second)
+2013-08-13 17:02:10,063 | [34mINFO [0;39m | Server startup in 48081 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_SUCCESS_CURL=0
+NUMBER_OF_EXCEPTION=13
+TIME=0 (second)
+2013-08-13 17:04:14,339 | [34mINFO [0;39m | Server startup in 72209 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+NUMBER_OF_SUCCESS_CURL=0
+NUMBER_OF_EXCEPTION=13
+TIME=0 (second)
