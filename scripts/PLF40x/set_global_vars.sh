@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/bin/bash -xv
 function set_global_vars() {
-export g_week_label=W32-20130807
-export g_store_dir=/mnt/nfs4/DATASETS/PLF/PLF4_WEEKLY/${g_week_label}	# where (in mnt) the datasets are saved
+export g_week_label=W34-20130821
+export g_store_dir=/mnt/nfs4/DATASETS/PLF/PLF40_WEEKLY/${g_week_label}	# where (in mnt) the datasets are saved
 export g_conf_file=DATASET_INJ					# prefix name of file _CURRENT_CONFIG
 export g_ds_init_name=PLF4_INIT					# backup after setup account
 export g_ds_ostd_user_name=PLF4_OSTD_5KU			# OSTD=outstanding - backup after user injection (and before login)
@@ -15,13 +15,13 @@ export g_ds_membership_name=PLF4_5KU_MEMBERSHIP			# backup after membership inje
 export g_ds_space_name=PLF4_5KU_1KSPACE
 
 export g_working_root_dir=/java/exo-working/DATASET_WORK/dataset-weekly-plf4
-export g_tomcat_dir=${g_working_root_dir}/pkg/${g_week_label}/tomcat-bundle 
+export g_tomcat_dir=${g_working_root_dir}/pkg/${g_week_label}/tomcat-bundle
 export g_shared_dir=${g_working_root_dir}/shared
-export g_scripts_dir=/mnt/nfs4/DATASETS/PLF/PLF4_WEEKLY/scripts/PLF40x
+export g_scripts_dir=/mnt/nfs4/DATASETS/PLF/PLF40_WEEKLY/scripts/PLF40x
 
-export g_pkg_source=/mnt/nfs4/others/packages/PLF402/plf-enterprise-tomcat-standalone-4.0.2.zip
+export g_pkg_source=/mnt/nfs4/others/packages/PLF403/plf-enterprise-tomcat-standalone-4.0.x-20130821.054909-260.zip
 
-export g_pkg_commons=/mnt/nfs4/DATASETS/PLF/PLF4_WEEKLY/scripts/PLF40x/commons
+export g_pkg_commons=/mnt/nfs4/DATASETS/PLF/PLF40_WEEKLY/scripts/PLF40x/commons
 
 export g_jmeter_bin_dir=/home/qahudson/testsuite/tools/jmeter-2.7/bin		# where jmeter.sh is located
 export g_jmeter_jmx_dir=${g_scripts_dir}/jmeter					# where common jmeter script (if any) is located

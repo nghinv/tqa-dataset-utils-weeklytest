@@ -1,4 +1,4 @@
-2013-08-12 14:41:26,862 | [34mINFO [0;39m | Server startup in 64628 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+2013-08-15 17:23:39,706 | [34mINFO [0;39m | Server startup in 68642 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
 NUMBER_OF_USER=5000 (5000 is PERFECT)
 NUMBER_OF_EXCEPTION=0
-TIME=3518 (second)
+TIME=3368 (second)

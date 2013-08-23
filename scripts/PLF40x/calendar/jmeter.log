@@ -1,58 +1,58 @@
-2013/08/14 21:47:18 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
-2013/08/14 21:47:18 INFO  - jmeter.JMeter: Loading user properties from: /mnt/nfs4_mars/PERF-SVN/PERF-SUITE/tools/jmeter-2.7/bin/user.properties 
-2013/08/14 21:47:18 INFO  - jmeter.JMeter: Loading system properties from: /mnt/nfs4_mars/PERF-SVN/PERF-SUITE/tools/jmeter-2.7/bin/system.properties 
-2013/08/14 21:47:18 INFO  - jmeter.JMeter: Setting JMeter property: expUserPrefix=abc.user 
-2013/08/14 21:47:18 INFO  - jmeter.JMeter: Setting JMeter property: expUserIdMin=0 
-2013/08/14 21:47:18 INFO  - jmeter.JMeter: Setting JMeter property: expUserIdMax=19 
-2013/08/14 21:47:18 INFO  - jmeter.JMeter: Setting JMeter property: expDateCSV=2013.csv 
-2013/08/14 21:47:18 INFO  - jmeter.JMeter: Copyright (c) 1998-2012 The Apache Software Foundation 
-2013/08/14 21:47:18 INFO  - jmeter.JMeter: Version 2.7 r1342410 
-2013/08/14 21:47:18 INFO  - jmeter.JMeter: java.version=1.6.0_29 
-2013/08/14 21:47:18 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
-2013/08/14 21:47:18 INFO  - jmeter.JMeter: os.name=Linux 
-2013/08/14 21:47:18 INFO  - jmeter.JMeter: os.arch=amd64 
-2013/08/14 21:47:18 INFO  - jmeter.JMeter: os.version=2.6.38-8-server 
-2013/08/14 21:47:18 INFO  - jmeter.JMeter: file.encoding=UTF-8 
-2013/08/14 21:47:18 INFO  - jmeter.JMeter: Default Locale=English (United States) 
-2013/08/14 21:47:18 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
-2013/08/14 21:47:18 INFO  - jmeter.JMeter: JMeterHome=/mnt/nfs4_mars/PERF-SVN/PERF-SUITE/tools/jmeter-2.7 
-2013/08/14 21:47:18 INFO  - jmeter.JMeter: user.dir  =/mnt/nfs4/DATASETS/PLF/PLF4_WEEKLY/scripts/PLF40x/calendar 
-2013/08/14 21:47:18 INFO  - jmeter.JMeter: PWD       =/mnt/nfs4/DATASETS/PLF/PLF4_WEEKLY/scripts/PLF40x/calendar 
-2013/08/14 21:47:18 INFO  - jmeter.JMeter: IP: 192.168.5.6 Name: virgo.testlab2.exoplatform.vn FullName: virgo.testlab2.exoplatform.vn 
-2013/08/14 21:47:18 INFO  - jmeter.services.FileServer: Default base='/mnt/nfs4/DATASETS/PLF/PLF4_WEEKLY/scripts/PLF40x/calendar' 
-2013/08/14 21:47:18 INFO  - jmeter.services.FileServer: Set new base='/mnt/nfs4/DATASETS/PLF/PLF4_WEEKLY/scripts/PLF40x/calendar' 
-2013/08/14 21:47:18 INFO  - jmeter.JMeter: Loading file: jmeter_inject_calendar_plf4.jmx 
-2013/08/14 21:47:19 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
-2013/08/14 21:47:19 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
-2013/08/14 21:47:19 INFO  - jmeter.save.SaveService: Using SaveService properties file version 1332608 
-2013/08/14 21:47:19 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.3 
-2013/08/14 21:47:19 INFO  - jmeter.save.SaveService: All converter versions present and correct 
-2013/08/14 21:47:19 INFO  - jmeter.protocol.http.control.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: true Prefix: COOKIE_ 
-2013/08/14 21:47:19 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Cannot find .className property for htmlParser, using default 
-2013/08/14 21:47:19 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is  
-2013/08/14 21:47:19 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is  
-2013/08/14 21:47:19 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is  
-2013/08/14 21:47:19 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is  
-2013/08/14 21:47:19 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
-2013/08/14 21:47:19 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Reuse SSL session context on subsequent iterations: true 
-2013/08/14 21:47:19 INFO  - jmeter.engine.StandardJMeterEngine: Listeners will be started after enabling running version 
-2013/08/14 21:47:19 INFO  - jmeter.engine.StandardJMeterEngine: To revert to the earlier behaviour, define jmeterengine.startlistenerslater=false 
-2013/08/14 21:47:19 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
-2013/08/14 21:47:19 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
-2013/08/14 21:47:19 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
-2013/08/14 21:47:19 INFO  - jmeter.JMeter: Running test (1376491639952) 
-2013/08/14 21:47:19 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group inject Event and Task. 
-2013/08/14 21:47:19 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2013/08/14 21:47:19 INFO  - jmeter.threads.JMeterThread: jmeterthread.startearlier=true (see jmeter.properties) 
-2013/08/14 21:47:19 INFO  - jmeter.threads.JMeterThread: Running PostProcessors in forward order 
-2013/08/14 21:47:20 INFO  - jmeter.engine.StandardJMeterEngine: All threads have been started 
-2013/08/14 21:47:20 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
-2013/08/14 21:47:20 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
-2013/08/14 21:47:20 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
-2013/08/14 21:47:20 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
-2013/08/14 21:47:20 INFO  - jmeter.threads.JMeterThread: Thread started: inject Event and Task 1-1 
-2013/08/14 21:47:20 INFO  - jmeter.protocol.http.sampler.HTTPJavaImpl: Maximum connection retries = 10 
-2013/08/15 04:33:19 INFO  - jmeter.threads.JMeterThread: Thread finished: inject Event and Task 1-1 
-2013/08/15 04:33:19 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread inject Event and Task 1-1 
-2013/08/15 04:33:19 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
-2013/08/15 04:33:19 INFO  - jmeter.engine.StandardJMeterEngine: Test has ended on host null 
+2013/08/16 14:52:27 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
+2013/08/16 14:52:27 INFO  - jmeter.JMeter: Loading user properties from: /mnt/nfs4_mars/PERF-SVN/PERF-SUITE/tools/jmeter-2.7/bin/user.properties 
+2013/08/16 14:52:27 INFO  - jmeter.JMeter: Loading system properties from: /mnt/nfs4_mars/PERF-SVN/PERF-SUITE/tools/jmeter-2.7/bin/system.properties 
+2013/08/16 14:52:27 INFO  - jmeter.JMeter: Setting JMeter property: expUserPrefix=abc.user 
+2013/08/16 14:52:27 INFO  - jmeter.JMeter: Setting JMeter property: expUserIdMin=0 
+2013/08/16 14:52:27 INFO  - jmeter.JMeter: Setting JMeter property: expUserIdMax=19 
+2013/08/16 14:52:27 INFO  - jmeter.JMeter: Setting JMeter property: expDateCSV=2013.csv 
+2013/08/16 14:52:27 INFO  - jmeter.JMeter: Copyright (c) 1998-2012 The Apache Software Foundation 
+2013/08/16 14:52:27 INFO  - jmeter.JMeter: Version 2.7 r1342410 
+2013/08/16 14:52:27 INFO  - jmeter.JMeter: java.version=1.6.0_29 
+2013/08/16 14:52:27 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2013/08/16 14:52:27 INFO  - jmeter.JMeter: os.name=Linux 
+2013/08/16 14:52:27 INFO  - jmeter.JMeter: os.arch=amd64 
+2013/08/16 14:52:27 INFO  - jmeter.JMeter: os.version=2.6.38-8-server 
+2013/08/16 14:52:27 INFO  - jmeter.JMeter: file.encoding=UTF-8 
+2013/08/16 14:52:27 INFO  - jmeter.JMeter: Default Locale=English (United States) 
+2013/08/16 14:52:27 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
+2013/08/16 14:52:27 INFO  - jmeter.JMeter: JMeterHome=/mnt/nfs4_mars/PERF-SVN/PERF-SUITE/tools/jmeter-2.7 
+2013/08/16 14:52:27 INFO  - jmeter.JMeter: user.dir  =/mnt/nfs4/DATASETS/PLF/PLF4_WEEKLY/scripts/PLF40x/calendar 
+2013/08/16 14:52:27 INFO  - jmeter.JMeter: PWD       =/mnt/nfs4/DATASETS/PLF/PLF4_WEEKLY/scripts/PLF40x/calendar 
+2013/08/16 14:52:27 INFO  - jmeter.JMeter: IP: 192.168.5.6 Name: virgo.testlab2.exoplatform.vn FullName: virgo.testlab2.exoplatform.vn 
+2013/08/16 14:52:27 INFO  - jmeter.services.FileServer: Default base='/mnt/nfs4/DATASETS/PLF/PLF4_WEEKLY/scripts/PLF40x/calendar' 
+2013/08/16 14:52:27 INFO  - jmeter.services.FileServer: Set new base='/mnt/nfs4/DATASETS/PLF/PLF4_WEEKLY/scripts/PLF40x/calendar' 
+2013/08/16 14:52:27 INFO  - jmeter.JMeter: Loading file: jmeter_inject_calendar_plf4.jmx 
+2013/08/16 14:52:27 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2013/08/16 14:52:27 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2013/08/16 14:52:27 INFO  - jmeter.save.SaveService: Using SaveService properties file version 1332608 
+2013/08/16 14:52:27 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.3 
+2013/08/16 14:52:27 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2013/08/16 14:52:28 INFO  - jmeter.protocol.http.control.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: true Prefix: COOKIE_ 
+2013/08/16 14:52:28 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Cannot find .className property for htmlParser, using default 
+2013/08/16 14:52:28 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is  
+2013/08/16 14:52:28 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is  
+2013/08/16 14:52:28 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is  
+2013/08/16 14:52:28 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is  
+2013/08/16 14:52:28 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2013/08/16 14:52:28 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Reuse SSL session context on subsequent iterations: true 
+2013/08/16 14:52:28 INFO  - jmeter.engine.StandardJMeterEngine: Listeners will be started after enabling running version 
+2013/08/16 14:52:28 INFO  - jmeter.engine.StandardJMeterEngine: To revert to the earlier behaviour, define jmeterengine.startlistenerslater=false 
+2013/08/16 14:52:28 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2013/08/16 14:52:28 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2013/08/16 14:52:28 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2013/08/16 14:52:28 INFO  - jmeter.JMeter: Running test (1376639548832) 
+2013/08/16 14:52:28 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group inject Event and Task. 
+2013/08/16 14:52:28 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2013/08/16 14:52:28 INFO  - jmeter.threads.JMeterThread: jmeterthread.startearlier=true (see jmeter.properties) 
+2013/08/16 14:52:28 INFO  - jmeter.threads.JMeterThread: Running PostProcessors in forward order 
+2013/08/16 14:52:28 INFO  - jmeter.engine.StandardJMeterEngine: All threads have been started 
+2013/08/16 14:52:28 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2013/08/16 14:52:28 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2013/08/16 14:52:28 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2013/08/16 14:52:28 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2013/08/16 14:52:29 INFO  - jmeter.threads.JMeterThread: Thread started: inject Event and Task 1-1 
+2013/08/16 14:52:29 INFO  - jmeter.protocol.http.sampler.HTTPJavaImpl: Maximum connection retries = 10 
+2013/08/16 22:09:08 INFO  - jmeter.threads.JMeterThread: Thread finished: inject Event and Task 1-1 
+2013/08/16 22:09:08 INFO  - jmeter.engine.StandardJMeterEngine: Ending thread inject Event and Task 1-1 
+2013/08/16 22:09:08 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2013/08/16 22:09:08 INFO  - jmeter.engine.StandardJMeterEngine: Test has ended on host null 

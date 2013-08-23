@@ -1,5 +1,5 @@
-2013-08-12 19:06:18,184 | [34mINFO [0;39m | Server startup in 85426 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
+2013-08-15 21:41:57,290 | [34mINFO [0;39m | Server startup in 88140 ms [32m[org.apache.catalina.startup.Catalina[0;39m[36m<main>[0;39m[32m][0;39m 
 NUMBER_OF_SUCCESS_CURL=1120 (1120 is PERFECT)
 NUMBER_OF_EXCEPTION=0
 NUMBER_OF_POST=10000 (10000 is PERFECT)
-TIME=20718 (second)
+TIME=4618 (second)
