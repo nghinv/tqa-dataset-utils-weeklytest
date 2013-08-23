@@ -27,8 +27,8 @@ pushd /mnt/nfs4/DATASETS/PLF/PLF4_WEEKLY/scripts/PLF40x/pkg ; ./pkg.sh ; popd
 -- diff seten => neu chi khac phan JVM => OK. neu khac ca nhung line khac => restore origin, modify it, cp it to commons
 -- diff server.xml ==> tuong tu nhu tren
 -- config shared/data
-[ -z $EXO_DATA_DIR ] && EXO_DATA_DIR=/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data
-in setenv.sh
+>> update EXO_DATA_DIR=/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data
+>> in setenv-customize.sh
 10. write master script (plan : inject gi, thu tu ra sao)
 
 11. call nohup ./mabulita.sh &     FROM scripts folder
