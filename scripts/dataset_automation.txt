@@ -1,4 +1,5 @@
 Steps : in /mnt/nfs4/DATASETS/PLF/PLF4_WEEKLY/scripts/PLF40x
+
 -- tìm tất cả các script có câu lệnh giống như thế này (ở gần cuối file) : cp ${g_ds_forum_name}.csv ${g_store_dir}
 -- sửa thành : cp ${g_ds_forum_name}*.csv ${g_store_dir}   >>> vầy là thêm một dấu * nhen
 -- khi đã sửa như trên, PA ::: cp tất csv vào shared ::: không cp csv nào vào mnt
@@ -16,8 +17,8 @@ plf_jcr
 plf_idm
 6. clean folder scripts (rm nohup.out)
 7. dung cau lenh de goi script pkg.sh
-pushd /mnt/nfs4/DATASETS/PLF/PLF4_WEEKLY/scripts/PLF40x/pkg ; ./pkg.sh ; popd
-8. manual check pkg.sh result
+pushd /mnt/nfs4/DATASETS/PLF/PLF4_WEEKLY/scripts/PLF40x/pkg ; ./tqa-dataset-utils-weeklytest-pkg.sh ; popd
+8. manual check tqa-dataset-utils-weeklytest-pkg.sh result
 -- logs look normal
 -- folder pkg/W../tomcat-bundle is created 
 -- find . -name *.origin
@@ -32,19 +33,38 @@ pushd /mnt/nfs4/DATASETS/PLF/PLF4_WEEKLY/scripts/PLF40x/pkg ; ./pkg.sh ; popd
 10. write master script (plan : inject gi, thu tu ra sao)
 
 11. call nohup ./tqa-dataset-utils-weeklytest.sh &     FROM scripts folder
-12. manual :
--- check tomcat start ok
--- login tren web, accept term, setup account, check john user, logout
--- vao folder /mnt.../scripts/ : touch init/continue.continue.continue
-boot
-BOOT Boot
-boot@localhost.com 
-gatein gatein
-13. MONITOR (watch logs)
-ps aux | grep inj
+===================== AUTOMATED ============================
+# 12. manual :
+# -- check tomcat start ok
+# -- login tren web, accept term, setup account, check john user, logout
+# -- vao folder /mnt.../scripts/ : touch init/continue.continue.continue
+# boot
+# BOOT Boot
+# boot@localhost.com 
+# gatein gatein
+# 13. MONITOR (watch logs)
+# ps aux | grep inj
+====================== AUTOMATED ===========================
 
 
 Notes :
 - luon goi script = ./ va luon goi nohup 
 1. week_label & .zip
 5. ask team if mysql db need to be backup
+
+
+==== >>> CONTROL EXCEPTIONAL CASES >>> ====
+>>> 1. kill tqa dataset injection utils:
+>>>>>>>> use [psAuxGrep bash] to show list of shell scripts processes
+	    qahudson  2335  0.0  0.0  12292  1604 ?        Ss   Aug08   0:00 bash -c cd '/home/qahudson/lib' && java  -jar slave.jar
+	    qahudson  2770  0.0  0.0  29120 10668 pts/0    Ss   08:49   0:03 -bash
+	    qahudson  7434  0.0  0.0  12312  1700 pts/0    S    11:15   0:00 /bin/bash ./tqa-dataset-utils-weeklytest.sh
+	    qahudson  7440  0.0  0.0  12348  1720 pts/0    S    11:15   0:00 /bin/bash ./init.sh
+	    qahudson  7570  0.0  0.0  12348  1232 pts/0    S    11:16   0:00 /bin/bash ./init.sh
+	    qahudson  7572  0.0  0.0  12448  1852 pts/0    S    11:16   0:00 bash ./jmeter-utils-testcontroller.sh START DATASET_INJ_virgo.testlab2.exoplatform.vn
+	    qahudson  7625  0.2  0.0  23568 13028 pts/0    S    11:16   0:00 bash ./eXoPLF.install.sh
+	    qahudson  8255  0.0  0.0   9144  1060 pts/0    S+   11:18   0:00 grep --color=auto bash
+>>>>>>>> kill -9 <full list of related process id>, you need to collect ALL related process id and kill once in single line
+	 kill -9 7434  7440  7570  7572  7625
+
+==== >>> CONTROL EXCEPTIONAL CASES >>> ====
