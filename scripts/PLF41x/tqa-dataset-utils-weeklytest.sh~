@@ -1,6 +1,5 @@
 #!/bin/bash
-
-pushd /mnt/nfs4/DATASETS/PLF/PLF4_WEEKLY/scripts/PLF41x/
+pushd /mnt/nfs4/DATASETS/PLF/PLF4_WEEKLY/scripts/PLF40x/
 backupname="backup__inject_resources_`basename \`pwd\``_`date +%Y%m%d_%H%M%S`.zip"
 zip -r ../${backupname} *
 
