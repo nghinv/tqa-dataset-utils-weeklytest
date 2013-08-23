@@ -1,5 +1,5 @@
 #!/bin/bash
-source ../set_global_vars.sh
+source ../tqa-dataset-utils-weeklytest-set_global_vars.sh
 set_global_vars
 
 if [ ! -f ${g_pkg_source} ]; then echo "Check pkg zip file then Retry! EXIT!!!"; exit 1; fi

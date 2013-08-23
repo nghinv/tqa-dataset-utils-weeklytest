@@ -1,5 +1,5 @@
 #!/bin/bash
-# Use : ../report/report.sh -l call_label -c call_command -g call_goal -t call_time_ms -T call_time_hour -r call_result -e call_error -n call_note
+# Use : ../report/tqa-dataset-utils-weeklytest-report.sh -l call_label -c call_command -g call_goal -t call_time_ms -T call_time_hour -r call_result -e call_error -n call_note
 
 label="";command="";goal="";time_second="";time_hour="";result="Success";error="";note="";
 if [ -z ${g_report_dir} ]; then report_file=../report/progress.txt; else report_file=${g_report_dir}/report.txt; fi
