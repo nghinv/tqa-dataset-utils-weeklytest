@@ -31,7 +31,7 @@ pushd /mnt/nfs4/DATASETS/PLF/PLF4_WEEKLY/scripts/PLF40x/pkg ; ./pkg.sh ; popd
 >> in setenv-customize.sh
 10. write master script (plan : inject gi, thu tu ra sao)
 
-11. call nohup ./mabulita.sh &     FROM scripts folder
+11. call nohup ./tqa-dataset-utils-weeklytest.sh &     FROM scripts folder
 12. manual :
 -- check tomcat start ok
 -- login tren web, accept term, setup account, check john user, logout
