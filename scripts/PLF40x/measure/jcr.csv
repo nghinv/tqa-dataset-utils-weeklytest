@@ -1481,3 +1481,123 @@ Measured after call CONNECTION at Fri Aug 16 14:25:49 ICT 2013
 Measured after call CALENDAR at Fri Aug 16 22:09:09 ICT 2013
 7828	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
 172276	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call USER at Fri Aug 23 15:32:25 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+99056	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call LOGIN at Fri Aug 23 15:58:19 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+90820	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call LOGIN at Fri Aug 23 16:12:17 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+95140	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call LOGIN at Fri Aug 23 16:26:30 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+99332	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call LOGIN at Fri Aug 23 16:41:20 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+103664	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call LOGIN at Fri Aug 23 16:55:49 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+107572	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call CONTENT at Fri Aug 23 18:57:09 ICT 2013
+1643300	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+3579188	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call FORUM at Sat Aug 24 02:35:55 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+253964	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call WIKI at Sat Aug 24 03:19:28 ICT 2013
+153384	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+178084	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call SPACE at Sat Aug 24 03:39:01 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+109260	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call SPACE at Sat Aug 24 03:43:13 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+111264	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call SPACE at Sat Aug 24 03:47:37 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+117272	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call SPACE at Sat Aug 24 03:50:52 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+114940	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call SPACE at Sat Aug 24 03:54:35 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+116024	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call MEMBERSHIP at Sat Aug 24 04:00:57 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+118408	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call MEMBERSHIP at Sat Aug 24 04:04:03 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+118572	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call MEMBERSHIP at Sat Aug 24 04:06:33 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+118592	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call MEMBERSHIP at Sat Aug 24 04:09:24 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+118596	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call MEMBERSHIP at Sat Aug 24 04:15:49 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+121888	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call MEMBERSHIP at Sat Aug 24 04:18:24 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+119796	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call MEMBERSHIP at Sat Aug 24 04:20:53 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+119816	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call MEMBERSHIP at Sat Aug 24 04:23:21 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+119820	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call MEMBERSHIP at Sat Aug 24 04:32:03 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+123424	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call MEMBERSHIP at Sat Aug 24 04:34:42 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+123384	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call MEMBERSHIP at Sat Aug 24 04:37:10 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+123208	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call MEMBERSHIP at Sat Aug 24 04:40:09 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+123212	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call MEMBERSHIP at Sat Aug 24 04:42:58 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+123664	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call MEMBERSHIP at Sat Aug 24 04:45:27 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+123756	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call MEMBERSHIP at Sat Aug 24 04:47:57 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+123776	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call MEMBERSHIP at Sat Aug 24 04:50:21 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+123780	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call MEMBERSHIP at Sat Aug 24 04:55:01 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+126044	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call MEMBERSHIP at Sat Aug 24 04:57:27 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+126136	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call MEMBERSHIP at Sat Aug 24 04:59:57 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+126156	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call MEMBERSHIP at Sat Aug 24 05:02:23 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+126160	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call CONNECTION at Sat Aug 24 05:48:18 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+192168	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call CONNECTION at Sat Aug 24 06:30:08 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+259308	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call CONNECTION at Sat Aug 24 07:12:38 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+333856	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call CONNECTION at Sat Aug 24 07:55:24 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+400324	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call CONNECTION at Sat Aug 24 08:38:19 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+467092	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index
+Measured after call CALENDAR at Sat Aug 24 16:46:04 ICT 2013
+7824	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/values
+167380	/java/exo-working/DATASET_WORK/dataset-weekly-plf4/shared/data/jcr/index

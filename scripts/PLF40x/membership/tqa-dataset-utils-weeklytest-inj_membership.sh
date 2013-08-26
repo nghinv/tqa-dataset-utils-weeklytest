@@ -26,13 +26,13 @@ for prefix in {abc,bcd,cde,def,efg}; do
 	../tqa-dataset-utils-weeklytest-start-app.sh; sleep 30; grep "Server start" ${tomcat_log_file} >>test.log
 	# CALL
 	call_start=$(date +%s);
-        curl -ujohn:gtn "${base_url}/tqa-dataset-utils-weeklytest-membership?type=member&fromUser=${fromUser}&toUser=${toUser}&userPrefix=${prefix}.user&fromSpace=${fromSpace}&toSpace=${toSpace}&spacePrefix=${prefix}s"
+        curl -ujohn:gtn "${base_url}/membership?type=member&fromUser=${fromUser}&toUser=${toUser}&userPrefix=${prefix}.user&fromSpace=${fromSpace}&toSpace=${toSpace}&spacePrefix=${prefix}s"
         call_end=$(date +%s);
 
         # REPORT
         call_label="MEMBERSHIP ${call_number}";
         call_time_second=$(expr $call_end - $call_start ); call_time_hour=$( echo "scale=4; ( ${call_time_second} / 3600 )" | bc );
-        call_command="curl -ujohn:gtn \"${base_url}/tqa-dataset-utils-weeklytest-membership?type=member&fromUser=${fromUser}&toUser=${toUser}&userPrefix=${prefix}.user&fromSpace=${fromSpace}&toSpace=${toSpace}&spacePrefix=${prefix}s\""
+        call_command="curl -ujohn:gtn \"${base_url}/membership?type=member&fromUser=${fromUser}&toUser=${toUser}&userPrefix=${prefix}.user&fromSpace=${fromSpace}&toSpace=${toSpace}&spacePrefix=${prefix}s\""
         call_goal="Add 2500 memberships"
         ${g_scripts_dir}/report/tqa-dataset-utils-weeklytest-report.sh -l "${call_label}" -c "${call_command}" -g "${call_goal}" -t "${call_time_second}" -T "${call_time_hour}"
 

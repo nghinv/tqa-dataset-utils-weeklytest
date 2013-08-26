@@ -18,7 +18,7 @@ for prefix in {abc,bcd,cde,def,efg}; do
         # CALL
         call_start=$(date +%s);
 	for i in {1..10}; do
-		curl -ujohn:gtn "${base_url}/tqa-dataset-utils-weeklytest-relationship?number=${number}&fromUser=${fromUser}&toUser=${toUser}&prefix=${prefix}.user"
+		curl -ujohn:gtn "${base_url}/relationship?number=${number}&fromUser=${fromUser}&toUser=${toUser}&prefix=${prefix}.user"
 		fromUser=$(expr ${fromUser} + 100 ) ; toUser=$(expr ${toUser} + 100 ) ; #next call
 	done
         call_end=$(date +%s);
@@ -26,7 +26,7 @@ for prefix in {abc,bcd,cde,def,efg}; do
         # REPORT
         call_label="CONNECTION ${call_number}";
         call_time_second=$(expr $call_end - $call_start ); call_time_hour=$( echo "scale=4; ( ${call_time_second} / 3600 )" | bc );
-        call_command="Pseudo-code : curl -ujohn:gtn \"${base_url}/tqa-dataset-utils-weeklytest-relationship?number=${number}&fromUser=x0&toUser=x999&prefix=${prefix}.user\""
+        call_command="Pseudo-code : curl -ujohn:gtn \"${base_url}/relationship?number=${number}&fromUser=x0&toUser=x999&prefix=${prefix}.user\""
         call_goal="Create full connections for ${prefix} users"
         ${g_scripts_dir}/report/tqa-dataset-utils-weeklytest-report.sh -l "${call_label}" -c "${call_command}" -g "${call_goal}" -t "${call_time_second}" -T "${call_time_hour}"
 
